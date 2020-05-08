@@ -4,7 +4,7 @@
 
 html{
     background-color: #000000;
-    height: 950px;
+    height: 1430px;
 }
 *{
     margin: 0;
@@ -23,6 +23,7 @@ html{
     position: fixed;
     height: 50px;
     bottom: 0;
+    right: 0;
     display: grid;
     grid-template-columns:  1fr 1fr 1fr 1fr;
     text-align: center;
@@ -54,10 +55,10 @@ html{
         }
         .container-video{
             bottom:10px;
-            width: 90%;
+            width: 80%;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: 1fr 1fr;
+           
             text-align: center;
             grid-gap: 15px;
             position: relative;
@@ -95,37 +96,46 @@ html{
             height: 30%;
             grid-template-columns: 1fr;
             grid-gap: 15px;
-            text-align: left;
+            text-align: center;
             justify-content: center;
            text-justify: auto; 
           margin-top: -3%;
             }
-        .container-pdf h4{
+        .container-pdf li{
             padding: 15px;
-
-         }
+            display: inline-block;
+        }
+        
+           .port:hover ul {display: block;} .mat:hover ul {display: block;} .hist:hover ul {display: block;} .geo:hover ul {display: block;} .bio:hover ul {display: block;} 
+          ul li ul {
+            position: absolute;
+            display: none;
+          }
+         
+      ul{
+          text-align: left;
+      }
         .port{
             background-color: #cc3333;
             height: 50px;  
-           
-          color: white;
+           color: white;
           font-family: Arial, sans-serif;
           font-weight: bold;
           border-radius: 5px;
+    
         }
         .mat{
             background-color: #9900cc;
             height: 50px;  
-            text-align: left;  
           color: white;
           font-family: Arial, sans-serif;
           font-weight: bold;
         border-radius: 5px;
+        
         }
         .hist{
             background-color: #00cc99;
-            height: 50px;  
-            text-align: left;  
+            height: 50px;    
           color: white;
           font-family: Arial, sans-serif;
           font-weight: bold;
@@ -133,8 +143,7 @@ html{
         }
         .geo{
             background-color: #ffff33;
-            height: 50px;  
-            text-align: left;  
+            height: 50px;   
           color: white;
           font-family: Arial, sans-serif;
           font-weight: bold;
@@ -142,13 +151,98 @@ html{
         }
         .bio{
             background-color: #3399cc;
-            height: 50px;  
-            text-align: left;  
+            height: 50px;    
           color: white;
           font-family: Arial, sans-serif;
           font-weight: bold;
         border-radius: 5px;
         }
+        .soc{
+            background-color: #cc7b33;
+            height: 50px;    
+          color: white;
+          font-family: Arial, sans-serif;
+          font-weight: bold;
+        border-radius: 5px;
+        }
+        .fil{
+            background-color: #336666;
+            height: 50px;    
+          color: white;
+          font-family: Arial, sans-serif;
+          font-weight: bold;
+        border-radius: 5px;
+        }
+        .qui{
+            background-color: #9f9f9f;
+            height: 50px;    
+          color: white;
+          font-family: Arial, sans-serif;
+          font-weight: bold;
+        border-radius: 5px;
+        }
+        .fis{
+            background-color: #660000;
+            height: 50px;    
+          color: white;
+          font-family: Arial, sans-serif;
+          font-weight: bold;
+        border-radius: 5px;
+        }
+        .art{
+            background-color: #ff9900;
+            height: 50px;    
+          color: white;
+          font-family: Arial, sans-serif;
+          font-weight: bold;
+        border-radius: 5px;
+        }
+        .edu{
+            background-color: #747e76;
+            height: 50px;    
+          color: white;
+          font-family: Arial, sans-serif;
+          font-weight: bold;
+        border-radius: 5px;
+        }
+        .esp{
+            background-color: #a9b977;
+            height: 50px;    
+          color: white;
+          font-family: Arial, sans-serif;
+          font-weight: bold;
+        border-radius: 5px;
+        }
+        .ing{
+            background-color: #b97777;
+            height: 50px;    
+          color: white;
+          font-family: Arial, sans-serif;
+          font-weight: bold;
+        border-radius: 5px;
+        }
+        .red{
+            background-color: #eaeaea;
+            height: 50px;    
+          color: black;
+          font-family: Arial, sans-serif;
+          font-weight: bold;
+        border-radius: 5px;
+        }
       
-        
-           
+      
+      
+      
+
+    .port:hover, .mat:hover, .hist:hover, .bio:hover, .geo:hover{
+        height: 130px;
+       
+    }
+   
+   
+    .covid{
+    width:100%;
+    position: relative;
+    margin-top: -10%;
+
+    }
