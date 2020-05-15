@@ -1,10 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
-
 html{
-    background-color: #000000;
-    height: 1430px;
+  background-color: #000000;
 }
 *{
     margin: 0;
@@ -234,7 +232,8 @@ html{
       
       
 
-    .port:hover, .mat:hover, .hist:hover, .bio:hover, .geo:hover{
+    .port:hover, .mat:hover, .hist:hover, .bio:hover, .geo:hover, .red:hover, .ingles:hover, .bio:hover,
+    .soc:hover, .fil:hover, .qui:hover, .fis:hover, .art:hover, .edu:hover, .esp:hover{
         height: 130px;
        
     }
@@ -245,4 +244,14 @@ html{
     position: relative;
     margin-top: -10%;
 
+    }
+    .oquecai{
+      color:#3869ff;
+      padding-left: 20px;
+      font-size: 20px;
+      padding: 40px;
+      margin-top: -40px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      
     }
